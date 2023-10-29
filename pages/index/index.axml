@@ -1,0 +1,23 @@
+<view class="page">
+
+  <view class="flex-container">
+    <text class="title">Hello! </text>
+    <image class="circle-avatar" mode="scaleToFill" src="/images/Mimikyu.jpg" />
+  </view>
+
+  <my-swiper swiperList="{{swiperList}}"></my-swiper>
+
+
+  
+
+  <!-- 快速开始按钮 -->
+  <view class="button-group">
+    <view class="button" style="background-color: #e0f7fa;">
+      <text>选项标题</text>
+    </view>
+    <view class="button" style="background-color: #ffebee;">
+      <text>选项标题</text>
+    </view>
+  </view>
+
+</view>

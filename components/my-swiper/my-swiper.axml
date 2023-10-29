@@ -1,0 +1,8 @@
+  <swiper indicator-dots="true" circular="true" autoplay={{true}} interval=2000>
+    <swiper-item a:for="{{swiperList}}" a:key="id"> 
+      <image src="{{item}}" mode=aspectFill></image>
+    </swiper-item>
+  </swiper>
+
+
+

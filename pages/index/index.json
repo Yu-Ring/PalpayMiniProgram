@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "my-swiper": "/components/my-swiper/my-swiper"
+  }
+}

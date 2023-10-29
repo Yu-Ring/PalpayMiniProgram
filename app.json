@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/page1/page1"
+  ],
+  "window": {
+    "defaultTitle": "My App"
+  },
+  "behavior": {
+    "requestReferrerStrategy": "page",
+    "requestReferrerStyle": "full"
+  },
+  "usingComponents": {
+    
+  }
+}
