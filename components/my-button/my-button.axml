@@ -1,0 +1,3 @@
+<view class="button" style="background-color: {{bgColor}}; box-shadow: 0rpx -2rpx 10rpx {{bgColor}};">
+  <text>{{text}}</text>
+</view>

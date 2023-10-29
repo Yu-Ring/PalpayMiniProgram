@@ -10,7 +10,23 @@
     "requestReferrerStrategy": "page",
     "requestReferrerStyle": "full"
   },
-  "usingComponents": {
-    
+  "tabBar": {
+    "textColor": "#dddddd",
+    "selectedColor": "#49a9ee",
+    "backgroundColor": "#ffffff",
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "name": "首页",
+        "icon": "/images/_ic_tabbar_home.png",
+        "activeIcon": "/images/_ic_tabbar_home_1.png"
+      },
+      {
+        "pagePath": "pages/page1/page1",
+        "name": "AI",
+        "icon": "/images/角色管理.png",
+        "activeIcon": "/images/角色管理_1.png"
+      }
+    ]
   }
 }

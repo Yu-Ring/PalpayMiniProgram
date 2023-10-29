@@ -1,0 +1,15 @@
+.button {
+  height: 120rpx;
+  width: 500rpx;
+  border-top-right-radius: 50rpx;
+  border-bottom-right-radius: 50rpx;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 10px;
+  border-color: white;      /* 设置边框颜色为白色 */
+  border-style: solid;      /* 设置边框样式为实线 */
+  border-width: 10rpx 10rpx 0 0;  /* 上右下左的边框宽度 */
+  font-size: 50rpx;
+  color: #ffffff;
+}

@@ -1,5 +1,7 @@
 {
   "usingComponents": {
-    "my-swiper": "/components/my-swiper/my-swiper"
+    "my-swiper": "/components/my-swiper/my-swiper",
+    "my-button": "/components//my-button/my-button",
+    "my-button-r": "/components/my-button-r/my-button-r"
   }
 }

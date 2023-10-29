@@ -1,7 +1,6 @@
 .page {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .flex-container {
@@ -25,23 +24,6 @@
   border-radius: 50%;
   overflow: hidden;
 }
-
-.button-group {
-  display: flex;
-  flex-direction: column;
-  width: 80%;
-  margin-top: 20px;
-}
-
-.button {
-  height: 40px;
-  border-radius: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 10px;
-}
-
 
 
 
