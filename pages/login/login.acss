@@ -1,0 +1,93 @@
+/* 这是对应上面结构的支付宝小程序样式示例 */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20rpx;
+}
+
+.header {
+  text-align: center;
+  margin-top: 150rpx;
+  margin-bottom: 200rpx;
+  width: 100%;
+  color:#ff7f50
+}
+
+.form {
+  width: 100%;
+  padding: 0 30rpx;
+}
+
+.form input {
+  border: 1rpx solid #ccc;
+  padding: 10rpx; /* 调整内边距 */
+  flex-grow: 1; /* 输入框占据剩余空间 */
+  margin-right: 10rpx; /* 右边距，与按钮分开 */
+  width: 600rpx;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+input-placeholder {
+  position: absolute;
+  white-space: nowrap;
+  overflow: hidden;
+  color: rgb(255, 94, 0);
+  display: flex;
+  -webkit-box-align: center;
+  place-items: center flex-start;
+  user-select: none;
+}
+
+.form button {
+  border-radius: 15rpx;
+  margin-right: 20rpx;
+  height: 100rpx;
+  width: 300rpx;
+  padding-left: 10rpx;
+  padding-right: 10rpx;
+  border: 0;
+}
+
+.identificationCode{
+  display: flex;
+  justify-content: space-between; /* 子元素水平间隔均匀分布 */
+  align-items: center; /* 子元素垂直居中 */
+  margin-bottom: 20rpx; /* 底部外边距 */
+  margin: 20rpx;
+}
+
+.input {
+  border: 1rpx solid #ccc;
+  border-radius: 10rpx;
+  margin-bottom: 20rpx;
+  padding: 20rpx;
+  height: 80rpx;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  margin: 20rpx 0;
+  width: 600rpx;
+}
+
+.login-button {
+  background-color: #FF6A6A;
+  color: black;
+  border-radius: 50rpx;
+  padding-bottom: 20rpx;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}
+
+.register-button {
+  background-color: #FFA07A;
+  color: black;
+  border-radius: 50rpx;
+  padding-bottom: 20rpx;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}

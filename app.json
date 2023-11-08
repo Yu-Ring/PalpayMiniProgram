@@ -1,10 +1,13 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/page1/page1"
+    "pages/page1/page1",
+    "pages/login/login",
+    "pages/information/information"
   ],
   "window": {
-    "defaultTitle": "My App"
+    "defaultTitle": "AI 营养师",
+    "titleBarColor": "#ff7f50"
   },
   "behavior": {
     "requestReferrerStrategy": "page",
@@ -24,6 +27,12 @@
       {
         "pagePath": "pages/page1/page1",
         "name": "AI",
+        "icon": "/images/角色管理.png",
+        "activeIcon": "/images/角色管理_1.png"
+      },
+      {
+        "pagePath": "pages/information/information",
+        "name": "用户",
         "icon": "/images/角色管理.png",
         "activeIcon": "/images/角色管理_1.png"
       }

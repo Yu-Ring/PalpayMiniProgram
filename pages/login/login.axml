@@ -1,0 +1,19 @@
+<view class="container">
+  <view class="header">
+    <view style="font-size: 30px; text-align: left; margin-left:80rpx">欢迎使用，</view>
+    <view style="font-size: 54px; font-weight: bold">AI营养师</view>  
+  </view>
+
+  <view class="form">
+    <input style="margin:20rpx" class="input" type="text" placeholder="请输入您的手机号" />
+    <view class="identificationCode">
+      <input class="input" type="text" placeholder="请输入验证码" />
+      <button>获取验证码</button>
+    </view>
+  </view>
+
+  <view class="button-group">
+    <button class="login-button">登录</button>
+    <button class="register-button">注册</button>
+  </view>
+</view>

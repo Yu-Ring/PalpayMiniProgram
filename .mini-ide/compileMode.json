@@ -1,0 +1,16 @@
+{
+  "modes": [
+    {
+      "title": "login",
+      "page": "pages/login/login",
+      "launchMode": "common",
+      "pageQuery": ""
+    },
+    {
+      "title": "information",
+      "page": "pages/information/information",
+      "launchMode": "common",
+      "pageQuery": ""
+    }
+  ]
+}

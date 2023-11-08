@@ -1,0 +1,27 @@
+<!-- 页面结构 WXML -->
+<view class="container">
+  <view class="user-info">
+    <image src="/images/Mimikyu.jpg"></image>
+    <text class="user-name">我的头像</text>
+  </view>
+
+  <view class="info-item">
+    <text style="color:#8f8f8f; font-weight: bold;">个性签名</text>
+    <text style="margin-right:50rpx">rnm，退钱</text>
+  </view>
+
+  <view class="info-item">
+    <text style="color:#8f8f8f; font-weight: bold;">联系方式</text>
+    <text style="margin-right:50rpx">13345507124</text>
+  </view>
+
+  <view class="info-item">
+    <text style="color:#8f8f8f; font-weight: bold;">订阅信息</text>
+    <text style="margin-right:50rpx">内容订阅</text>
+  </view>
+
+  <view class="info-item">
+    <text style="color:#8f8f8f; font-weight: bold;">企业邮箱</text>
+    <text style="margin-right:50rpx">114514@usst.com</text>
+  </view>
+</view>

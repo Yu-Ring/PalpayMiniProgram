@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin: 30rpx;
+}
+
+.user-info image{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+  border: 10rpx solid rgb(255, 182, 156) 
+}
+
+.user-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10rpx;
+}
+
+.info-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  width: 100%;
+  border-bottom: 1rpx solid #bababa;
+  padding-top: 50rpx;
+  margin: 30rpx;
+}
+
