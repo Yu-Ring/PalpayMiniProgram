@@ -2,5 +2,6 @@
   "usingComponents": {
     "add-button": "/components/add-button/add-button"
   },
-  "styleIsolation": "apply-shared"
+  "styleIsolation": "apply-shared",
+  "backgroundColor": ""
 }

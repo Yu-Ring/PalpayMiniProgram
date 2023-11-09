@@ -13,7 +13,7 @@
       "pageQuery": ""
     },
     {
-      "title": "pages/login/login",
+      "title": "register",
       "page": "pages/register_collect_sympotom/register_collect_sympotom",
       "launchMode": "common",
       "pageQuery": ""
@@ -33,6 +33,12 @@
     {
       "title": "pages/add_sympotom/add_sympotom",
       "page": "pages/add_sympotom/add_sympotom",
+      "launchMode": "common",
+      "pageQuery": ""
+    },
+    {
+      "title": "register1",
+      "page": "pages/register/register",
       "launchMode": "common",
       "pageQuery": ""
     }

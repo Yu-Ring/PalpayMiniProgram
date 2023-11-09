@@ -3,7 +3,7 @@ App({
     { text: '失眠', completed: true },
     { text: '不快乐', completed: true },
     { text: '眼睛疼', completed: false },
-    { text:'喉咙痛',completed:true},
+    { text:'喉咙痛',completed:true}
   ],
   userInfo: null,
 
