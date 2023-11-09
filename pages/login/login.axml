@@ -13,7 +13,7 @@
   </view>
 
   <view class="button-group">
-    <button class="login-button">登录</button>
-    <button class="register-button">注册</button>
+    <button class="login-button" onTap="longin">登录</button>
+    <button class="register-button" onTap="register">注册</button>
   </view>
 </view>

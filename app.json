@@ -3,7 +3,9 @@
     "pages/index/index",
     "pages/page1/page1",
     "pages/login/login",
-    "pages/information/information"
+    "pages/information/information",
+    "pages/register_collect_sympotom/register_collect_sympotom",
+    "pages/add_sympotom/add_sympotom"
   ],
   "window": {
     "defaultTitle": "AI 营养师",

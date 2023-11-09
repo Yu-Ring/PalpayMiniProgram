@@ -11,6 +11,30 @@
       "page": "pages/information/information",
       "launchMode": "common",
       "pageQuery": ""
+    },
+    {
+      "title": "pages/login/login",
+      "page": "pages/register_collect_sympotom/register_collect_sympotom",
+      "launchMode": "common",
+      "pageQuery": ""
+    },
+    {
+      "title": "pages/register_collect_sympotom/register_collect_sympotom",
+      "page": "pages/register_collect_sympotom/register_collect_sympotom",
+      "launchMode": "common",
+      "pageQuery": ""
+    },
+    {
+      "title": "pages/register_collect_sympotom/register_collect_sympotom",
+      "page": "pages/add_sympotom/add_sympotom",
+      "launchMode": "common",
+      "pageQuery": ""
+    },
+    {
+      "title": "pages/add_sympotom/add_sympotom",
+      "page": "pages/add_sympotom/add_sympotom",
+      "launchMode": "common",
+      "pageQuery": ""
     }
   ]
 }
