@@ -5,7 +5,8 @@
     "pages/login/login",
     "pages/information/information",
     "pages/register_collect_sympotom/register_collect_sympotom",
-    "pages/add_sympotom/add_sympotom"
+    "pages/add_sympotom/add_sympotom",
+    "pages/forum_share/forum_share"
   ],
   "window": {
     "defaultTitle": "AI 营养师",

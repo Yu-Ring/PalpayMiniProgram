@@ -41,6 +41,12 @@
       "page": "pages/register/register",
       "launchMode": "common",
       "pageQuery": ""
+    },
+    {
+      "title": "发布",
+      "page": "pages/forum_share/forum_share",
+      "launchMode": "common",
+      "pageQuery": ""
     }
   ]
 }
