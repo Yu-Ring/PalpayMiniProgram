@@ -6,7 +6,9 @@
     "pages/information/information",
     "pages/register_collect_sympotom/register_collect_sympotom",
     "pages/add_sympotom/add_sympotom",
-    "pages/forum_share/forum_share"
+    "pages/forum_share/forum_share",
+    "pages/forum/forum",
+    "pages/forum_detail/forum_detail"
   ],
   "window": {
     "defaultTitle": "AI 营养师",

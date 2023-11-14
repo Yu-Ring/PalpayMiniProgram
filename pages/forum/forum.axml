@@ -1,0 +1,15 @@
+<view class="container">
+  <block a:for="{{articles}}" a:key="index">
+    <view class="article-item" onTap="goToDetailPage" data-id="{{item.id}}">
+      <image class="article-image" src="{{item.imageUrl}}" mode="aspectFill"></image>
+      <view class="article-info">
+        <text class="article-title">{{item.title}}</text>
+        <text class="article-summary">{{item.summary}}</text>
+        <view class="article-meta">
+          <text class="article-author">{{item.author}}</text>
+          <text class="article-time">{{item.time}}</text>
+        </view>
+      </view>
+    </view>
+  </block>
+</view>

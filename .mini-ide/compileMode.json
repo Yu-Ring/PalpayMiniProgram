@@ -47,6 +47,18 @@
       "page": "pages/forum_share/forum_share",
       "launchMode": "common",
       "pageQuery": ""
+    },
+    {
+      "title": "forum",
+      "page": "pages/forum/forum",
+      "launchMode": "common",
+      "pageQuery": ""
+    },
+    {
+      "title": "forum_detail",
+      "page": "pages/forum_detail/forum_detail",
+      "launchMode": "common",
+      "pageQuery": ""
     }
   ]
 }
