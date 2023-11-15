@@ -46,11 +46,10 @@ Page({
   goToDetailPage(event) {
     // 获取被点击的文章ID
     const articleId = event.currentTarget.dataset.id;
-
     // 这里实现跳转逻辑
     // 例如，跳转到文章详情页，并传递文章ID
     my.navigateTo({
-      url: `/pages/forum_detail/forum_detail=${articleId}`
+      url: `/pages/forum_detail/forum_detail?articleId=${articleId}`
     });
   },
 });
