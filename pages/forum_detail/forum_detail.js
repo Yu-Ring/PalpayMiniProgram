@@ -2,7 +2,7 @@ Page({
   data: {
     article: {}, // 文章详情
     comments: [], // 评论数据
-    newComment: '' // 新评论输入
+    newComment: '', // 新评论输入
   },
   onLoad(options) {
     const articleId = options.articleId;

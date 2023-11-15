@@ -11,9 +11,10 @@
   <view class="comments-section">
     <!-- 发布评论区域 -->
     <view class="comment-input">
-      <input type="text" placeholder="这里写下你的评论" bindinput="onCommentInput" />
+      <input type="text" placeholder="这里写下你的评论" onInput="onCommentInput" />
       <button type="primary" onTap="submitComment">发送</button>
     </view>
+    
 
     <!-- 评论展示部分 -->
     <view class="comment-list">
