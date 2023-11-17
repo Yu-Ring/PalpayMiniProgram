@@ -30,6 +30,18 @@
         "activeIcon": "/images/_ic_tabbar_home_1.png"
       },
       {
+        "pagePath": "pages/forum/forum",
+        "name": "文章",
+        "icon": "/images/角色管理.png",
+        "activeIcon": "/images/角色管理_1.png"
+      },
+      {
+        "pagePath": "pages/forum_share/forum_share",
+        "name": "发布文章",
+        "icon": "/images/article_add.png",
+        "activeIcon": "/images/article_add.png"
+      },
+      {
         "pagePath": "pages/page1/page1",
         "name": "AI",
         "icon": "/images/角色管理.png",

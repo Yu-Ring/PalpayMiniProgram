@@ -1,44 +1,46 @@
-<view class="publish-container">
-
+<view>
+  <!-- 标题 -->
   <view class="title-input-wrap">
-    <input type="text" placeholder="填写标题" value="{{titleValue}}" maxlength="20" bindinput="getTitleValue" />
+    <input type="text" placeholder="填写标题" value="{{titleValue}}" maxlength="20" onInput="getTitleValue" />
   </view>
 
-
+  <!-- 内容 -->
   <view class="input-wrap">
-    <textarea placeholder="{{tishi}}" class="input-text" maxlength="2000" bindinput="getValue" value="{{inputValue}}"></textarea>
+    <textarea placeholder="请输入正文内容" class="input-text" maxlength="2000" onInput="getValue" value="{{inputValue}}"></textarea>
   </view>
 
-
-  <picker bindchange="bindPickerChange" class='input_block' range="{{typeNameList}}">
-    <view class="input_text">
+  <!-- 选择动态类型 -->
+  <picker bindchange="bindPickerChange" class='picker_block' range="{{typeNameList}}">
+    <view class="uploadPrompts">
       选择动态类型：{{chooseTypeName}}
     </view>
   </picker>
 
-  <view class="img-wrap" a:if="{{!videoUrl}}">
-
+  <!-- 选择图片 -->
+  <view class="uploadPrompts" onTap="chooseImage">上传图片：</view>
+  <view class="img-wrap">
+    <!-- 已选择的图片 -->
     <block a:for="{{cloudImgList}}" a:key="index">
       <view class="one-img">
         <image src="{{item}}" class="img-choose"></image>
-        <image src="/image/close.png" class="close-img" bindtap="deleteImg" data-index="{{index}}"></image>
+        <image src="/image/close.png" class="close-img" onTap="deleteImg" data-index="{{index}}"></image>
       </view>
     </block>
 
-
-    <view class="one-img" bindtap="chooseImage" a:if="{{cloudImgList.length < 9}}">
+    <!-- 添加图片 -->
+    <view class="one-img" onTap="chooseImage" a:if="{{cloudImgList.length < 9}}">
       <image src="/images/add.png" class="img-choose"></image>
     </view>
   </view>
 
+  <!-- 视频展示 -->
   <video class="video-cell" a:if="{{videoUrl}}" src="{{videoUrl}}"></video>
 
+  <!-- 选择地址 -->
+  <view onTap="chooseAddress" class="uploadPrompts">{{localtion}}</view>
 
-  <view bindtap="chooseAddress" class="choose-localtion">{{localtion}}</view>
-
-
-
-  <view a:if="{{cloudImgList.length == 0}}" class="choose-localtion" bindtap="chooseVideo">上传图片</view>
+  <!-- 上传视频 -->
+  <view a:if="{{cloudImgList.length == 0}}" class="uploadPrompts" onTap="chooseVideo">上传视频：</view>
 
   <button bindtap="submitData" class="publish-but">发布</button>
 </view>
