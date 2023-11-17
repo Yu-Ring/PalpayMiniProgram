@@ -59,6 +59,38 @@
       "page": "pages/forum_detail/forum_detail",
       "launchMode": "common",
       "pageQuery": ""
+    },
+    {
+      "title": "index",
+      "page": "pages/index/index",
+      "launchMode": "common"
+    },
+    {
+      "title": "message",
+      "page": "pages/message/message",
+      "launchMode": "common"
+    },
+    {
+      "title": "message",
+      "page": "pages/message/message",
+      "launchMode": "common"
+    },
+    {
+      "title": "forum",
+      "page": "pages/forum/forum",
+      "launchMode": "common"
+    },
+    {
+      "title": "message",
+      "page": "pages/message/message",
+      "launchMode": "common",
+      "pageQuery": ""
+    },
+    {
+      "title": "message",
+      "page": "pages/message/message",
+      "launchMode": "common",
+      "update": true
     }
   ]
 }

@@ -1,0 +1,3 @@
+<view>
+  <button onTap="handleTap">{{ buttonText }}</button>
+</view>

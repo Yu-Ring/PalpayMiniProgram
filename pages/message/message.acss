@@ -1,0 +1,30 @@
+.page{
+  display: flex;
+  flex-direction: column;
+}
+.title{
+  font-weight: bold; 
+  font-size: 75rpx;
+  text-align: left;
+  color: coral;
+}
+.flex-container {
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}
+.header {
+  display: flex;
+  justify-content: space-around; /* 让按钮平均分布在 header 中 */
+  align-items: center;
+  height: 100rpx; /* 适当的高度，根据实际需要调整 */
+  background-color: #eee; /* 设置背景色，根据实际需要调整 */
+}
+
+.page-body-button{
+  color:#FFF;
+  background-color: coral;
+}

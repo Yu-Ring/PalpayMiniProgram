@@ -1,5 +1,6 @@
 {
   "usingComponents": {
+    "my-swiper": "/components/my-swiper/my-swiper",
     "navigation-button":"/components/navigation-button/navigation-button"
   },
   "styleIsolation": "apply-shared"

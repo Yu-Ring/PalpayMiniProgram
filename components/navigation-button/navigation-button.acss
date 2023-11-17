@@ -1,0 +1,12 @@
+.navigation-button {
+  flex: 1; /* 每个按钮平均占据父容器的空间 */
+  margin: 10rpx; /* 适当的外边距，根据实际需要调整 */
+  width: 25%;
+}
+
+.button {
+  width: 25%;
+  height: 60rpx;
+  color: bisque;
+  /* 添加其他按钮样式，比如颜色、边框等 */
+}

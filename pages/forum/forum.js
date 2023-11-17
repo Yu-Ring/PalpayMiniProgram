@@ -21,7 +21,7 @@ Page({
       {
         id: '3',
         title: '文章标题3',
-        summary: '这里是文章摘要3...',
+        summary: '我感觉真的做来不及了...',
         imageUrl: '/images/Mimikyu.jpg',
         author: '作者1',
         time: '2021-01-01'

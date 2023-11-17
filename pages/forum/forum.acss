@@ -47,3 +47,11 @@
   font-size: 12px;
   color: #999;
 }
+
+.header {
+  display: flex;
+  justify-content: space-around; /* 让按钮平均分布在 header 中 */
+  align-items: center;
+  height: 100rpx; /* 适当的高度，根据实际需要调整 */
+  background-color: #eee; /* 设置背景色，根据实际需要调整 */
+}
