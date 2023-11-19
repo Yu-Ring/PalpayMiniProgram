@@ -8,7 +8,8 @@
     "pages/add_sympotom/add_sympotom",
     "pages/forum_share/forum_share",
     "pages/forum/forum",
-    "pages/forum_detail/forum_detail"
+    "pages/forum_detail/forum_detail",
+    "pages/message/message"
   ],
   "window": {
     "defaultTitle": "AI 营养师",
@@ -48,11 +49,18 @@
         "activeIcon": "/images/角色管理_1.png"
       },
       {
+        "pagePath":"pages/message/message",
+        "name":"消息",
+        "icon":"/images/message.png",
+        "activeIcon":"/images/message_1.png"
+      },
+      {
         "pagePath": "pages/information/information",
         "name": "用户",
         "icon": "/images/角色管理.png",
         "activeIcon": "/images/角色管理_1.png"
       }
+      
     ]
   }
 }
