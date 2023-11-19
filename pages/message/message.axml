@@ -9,7 +9,7 @@
 </view>
 
 <view>
-  <button class="page-body-button" type="primary" onTap="datePicker">选择日期：yyyy-MM-dd</button>
+  <button class="page-body-button" type="primary" onTap="datePicker">选择日期</button>
 </view>
 
 <view class="flex-container">

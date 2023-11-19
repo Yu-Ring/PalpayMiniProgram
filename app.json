@@ -43,12 +43,6 @@
         "activeIcon": "/images/article_add.png"
       },
       {
-        "pagePath": "pages/page1/page1",
-        "name": "AI",
-        "icon": "/images/角色管理.png",
-        "activeIcon": "/images/角色管理_1.png"
-      },
-      {
         "pagePath":"pages/message/message",
         "name":"消息",
         "icon":"/images/message.png",
