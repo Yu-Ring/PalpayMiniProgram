@@ -13,7 +13,7 @@
 </view>
 
 <view class="flex-container">
-  <text class="title">每日消息</text>
+  <text class="title">每日推送</text>
 </view>
 
 <view class="message">
