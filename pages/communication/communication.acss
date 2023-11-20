@@ -1,0 +1,52 @@
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.message-list {
+  flex-grow: 1;
+  padding: 10px;
+  background-color: #f5f5f5;
+  overflow-y: scroll; /* 确保消息列表可以滚动 */
+}
+
+.message-item {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: flex-end;
+  
+}
+
+.message-item-other {
+  flex-direction: row-reverse;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.message {
+  max-width: 60%;
+  margin: 0 10px;
+  padding: 5px 10px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.input-area {
+  display: flex;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.input-area input {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.input-area button {
+  width: 60px;
+}

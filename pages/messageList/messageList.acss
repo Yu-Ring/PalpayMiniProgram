@@ -1,0 +1,39 @@
+.messages-container {
+  padding: 10px;
+}
+
+.message-item {
+  display: flex;
+  margin-bottom: 15px;
+  height: 120rpx;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.message-content {
+  flex-grow: 1;
+}
+
+.message-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.sender-name {
+  font-weight: bold;
+}
+
+.message-time {
+  color: #aaa;
+  font-size: 20px;
+}
+
+.message-preview {
+  color: #666;
+}

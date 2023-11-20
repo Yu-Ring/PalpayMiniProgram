@@ -19,31 +19,13 @@
       "pageQuery": ""
     },
     {
-      "title": "pages/register_collect_sympotom/register_collect_sympotom",
-      "page": "pages/register_collect_sympotom/register_collect_sympotom",
-      "launchMode": "common",
-      "pageQuery": ""
-    },
-    {
-      "title": "pages/register_collect_sympotom/register_collect_sympotom",
-      "page": "pages/add_sympotom/add_sympotom",
-      "launchMode": "common",
-      "pageQuery": ""
-    },
-    {
-      "title": "pages/add_sympotom/add_sympotom",
-      "page": "pages/add_sympotom/add_sympotom",
-      "launchMode": "common",
-      "pageQuery": ""
-    },
-    {
       "title": "register1",
       "page": "pages/register/register",
       "launchMode": "common",
       "pageQuery": ""
     },
     {
-      "title": "发布",
+      "title": "forum_share",
       "page": "pages/forum_share/forum_share",
       "launchMode": "common",
       "pageQuery": ""
@@ -71,11 +53,6 @@
       "launchMode": "common"
     },
     {
-      "title": "message",
-      "page": "pages/message/message",
-      "launchMode": "common"
-    },
-    {
       "title": "forum",
       "page": "pages/forum/forum",
       "launchMode": "common"
@@ -87,10 +64,16 @@
       "pageQuery": ""
     },
     {
-      "title": "message",
-      "page": "pages/message/message",
+      "title": "messageList",
+      "page": "pages/messageList/messageList",
       "launchMode": "common",
       "update": true
+    },
+    {
+      "title": "communication",
+      "page": "pages/communicaton/communicaton",
+      "launchMode": "common",
+      "pageQuery": ""
     }
   ]
 }

@@ -1,0 +1,14 @@
+<view class="messages-container">
+  <block a:for="{{messages}}" a:key="index">
+    <view class="message-item" onTap="onMessageTap">
+      <image class="avatar" src="{{item.avatar}}" />
+      <view class="message-content">
+        <view class="message-header">
+          <text class="sender-name">{{item.sender}}</text>
+          <text class="message-time">{{item.time}}</text>
+        </view>
+        <text class="message-preview">{{item.preview}}</text>
+      </view>
+    </view>
+  </block>
+</view>

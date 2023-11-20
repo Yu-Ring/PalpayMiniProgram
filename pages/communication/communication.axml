@@ -1,0 +1,21 @@
+<view class="chat-container">
+  <scroll-view class="message-list" scroll-y="true">
+
+    <block a:for="{{messages}}" a:key="index">
+      <view class="message-item message-item-other" a:if="{{item.sender !== 'self'}}">
+        <image class="avatar" src="{{item.avatar}}" />
+        <text class="message">{{item.content}}</text>
+      </view>
+      <view class="message-item" a:if="{{item.sender === 'self'}}">
+        <image class="avatar" src="{{yourAvatar}}" />
+        <text class="message">{{item.content}}</text>
+      </view>
+    </block>
+
+  </scroll-view>
+
+  <view class="input-area">
+    <input type="text" placeholder="输入消息" bindinput="onInput" value="{{inputValue}}" />
+    <button bindtap="sendMessage">发送</button>
+  </view>
+</view>

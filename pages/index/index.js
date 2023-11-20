@@ -38,4 +38,9 @@ Page({
       path: 'pages/index/index',
     };
   },
+  navigateToMessageList: function(e){
+    my.navigateTo({ 
+      url: '/pages/messageList/messageList'
+    });
+  },
 });

@@ -2,7 +2,7 @@
 
   <view class="flex-container">
     <text class="title">Hello! </text>
-    <image class="circle-avatar" mode="scaleToFill" src="/images/Mimikyu.jpg" />
+    <image class="circle-avatar" mode="scaleToFill" src="/images/Mimikyu.jpg" onTap="navigateToMessageList" />
   </view>
 
   <my-swiper swiperList="{{swiperList}}"></my-swiper>

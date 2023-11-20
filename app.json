@@ -9,7 +9,9 @@
     "pages/forum_share/forum_share",
     "pages/forum/forum",
     "pages/forum_detail/forum_detail",
-    "pages/message/message"
+    "pages/message/message",
+    "pages/messageList/messageList",
+    "pages/communication/communication"
   ],
   "window": {
     "defaultTitle": "AI 营养师",
@@ -43,10 +45,10 @@
         "activeIcon": "/images/article_add.png"
       },
       {
-        "pagePath":"pages/message/message",
-        "name":"消息",
-        "icon":"/images/message.png",
-        "activeIcon":"/images/message_1.png"
+        "pagePath": "pages/message/message",
+        "name": "消息",
+        "icon": "/images/message.png",
+        "activeIcon": "/images/message_1.png"
       },
       {
         "pagePath": "pages/information/information",
@@ -54,7 +56,6 @@
         "icon": "/images/角色管理.png",
         "activeIcon": "/images/角色管理_1.png"
       }
-      
     ]
   }
 }
