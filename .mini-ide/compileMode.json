@@ -74,6 +74,12 @@
       "page": "pages/communicaton/communicaton",
       "launchMode": "common",
       "pageQuery": ""
+    },
+    {
+      "title": "page1",
+      "page": "pages/page1/page1",
+      "launchMode": "common",
+      "pageQuery": ""
     }
   ]
 }

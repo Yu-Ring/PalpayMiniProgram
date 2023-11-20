@@ -1,28 +1,58 @@
-<view class="page">
+<view class="page-background">
+  <!-- <view class="background-block-top"></view> -->
+  <image mode="scaleToFill" class="background-block-top" src="/images/铁道-列车.png" />
+  <view class="background-block-bottom"></view>
 
-  <view class="flex-container">
-    <text class="title">Hello! </text>
-    <image class="circle-avatar" mode="scaleToFill" src="/images/Mimikyu.jpg" onTap="navigateToMessageList" />
-  </view>
 
-  <my-swiper swiperList="{{swiperList}}"></my-swiper>
-
-  <view class="flex-container" style="margin-top:80rpx;margin-bottom:60rpx">
-    <text class="title">Quick Start </text>
+  <view class="page">
+    <!-- 头部栏 -->
+    <view class="flex-container">
+      <text class="title">Hello! </text>
+      <image class="circle-avatar" mode="scaleToFill" src="/images/Mimikyu.jpg" onTap="navigateToMessageList" />
+    </view>
+  
+    <!-- 轮播图 -->
+    <my-swiper swiperList="{{swiperList}}"></my-swiper>
+  
+    <!-- 功能栏 -->
+    <view class="feature-bar">
+      <block a:for="{{featureList}}" a:key="index">
+        <view class="feature-item" bindtap="onFeatureItemTap" data-id="{{item.id}}">
+          <image class="feature-icon" src="{{item.icon}}" />
+          <text class="feature-text">{{item.text}}</text>
+        </view>
+      </block>
+    </view>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <view class="flex-container" style="margin-top:80rpx;margin-bottom:60rpx">
+      <text class="title">Quick Start </text>
+    </view>
+    
+  
+      <view>
+        <my-button bgColor="#FFCAD4" text="症状调查"></my-button>
+      </view>
+      <view style="padding-left:240rpx">
+        <my-button-r bgColor="#F18671" text="营养记录"></my-button-r>
+      </view>
+      <view>
+        <my-button bgColor="#F1D268" text="定制计划"></my-button>
+      </view>
+      <view style="padding-left:240rpx">
+        <my-button-r bgColor="#999EE4" text="方案迭代"></my-button-r>
+      </view>
   </view>
   
 
-    <view>
-      <my-button bgColor="#FFCAD4" text="症状调查"></my-button>
-    </view>
-    <view style="padding-left:240rpx">
-      <my-button-r bgColor="#F18671" text="营养记录"></my-button-r>
-    </view>
-    <view>
-      <my-button bgColor="#F1D268" text="定制计划"></my-button>
-    </view>
-    <view style="padding-left:240rpx">
-      <my-button-r bgColor="#999EE4" text="方案迭代"></my-button-r>
-    </view>
-
 </view>
+

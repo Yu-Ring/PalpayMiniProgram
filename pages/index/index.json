@@ -2,6 +2,9 @@
   "usingComponents": {
     "my-swiper": "/components/my-swiper/my-swiper",
     "my-button": "/components//my-button/my-button",
-    "my-button-r": "/components/my-button-r/my-button-r"
+    "my-button-r": "/components/my-button-r/my-button-r",
+    "container": "antd-mini/es/Container/index",
+    "grid": "antd-mini/es/Grid/index",
+    "badge":"antd-mini/es/Badge/index"
   }
 }

@@ -1,0 +1,31 @@
+.page-container {
+  position: relative; /* 确保子元素可以相对于此定位 */
+  height: 100vh; /* 根据需要调整页面高度 */
+}
+
+.background-block {
+  position: absolute;
+  width: 100%;
+  height: 25%; /* 分成两半 */
+}
+
+.top-block {
+  top: 0;
+  background-color: #abcdef; /* 上半部分的背景颜色 */
+}
+
+.bottom-block {
+  bottom: 0;
+  background-color: #fedcba; /* 下半部分的背景颜色 */
+}
+
+.cross-component {
+  position: absolute;
+  left: 50%;
+  top: 50%; /* 调整位置以横跨两个色块 */
+  transform: translate(-50%, -50%); /* 居中对齐 */
+  background-color: white; /* 组件背景颜色 */
+  padding: 10px;
+  border-radius: 10px;
+  /* 其他样式 */
+}

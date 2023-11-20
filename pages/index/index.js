@@ -3,7 +3,15 @@ Page({
     //定义轮播图数据列表
     swiperList: ["/images/琉璃龙.jpg","/images/铁道-列车.png","/images/Mimikyu.jpg","/images/Mimikyu2.jpg"], 
     //九宫格数据列表
-    gridList: [{id: 1, name :"图1", icon:"/images/彩色少女0.jpg"},{id: 2, name :"图2", icon:"/images/彩色少女1.jpg"},{id: 3, name :"图3", icon:"/images/彩色短发少女.jpg"},{id: 4, name :"图4", icon:"/images/代办问诊.png"},{id: 5, name :"图5", icon:"/images/代办问诊 (1).png"},{id: 6, name :"图6", icon:"/images/代办买药.png"},{id: 7, name :"图7", icon:"/images/代办买药 (1).png"},{id: 8, name :"图8", icon:"/images/全程陪诊.png"},{id: 9, name :"图9", icon:"/images/全程陪诊 (1).png"}] //同理也可通过get获取data
+    featureList: [
+      // 功能栏数据
+      { id: '1', icon: '/images/Mimikyu.jpg', text: 'AI咨询' },
+      { id: '2', icon: '/images/Mimikyu.jpg', text: '营养师咨询' },
+      { id: '3', icon: '/images/Mimikyu.jpg', text: '交流广场' },
+      { id: '4', icon: '/images/Mimikyu.jpg', text: '周期方案' },
+      { id: '5', icon: '/images/Mimikyu.jpg', text: '消息栏' },
+      // ...
+    ]
   },
   onLoad(query) {
     // 页面加载

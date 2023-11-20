@@ -1,3 +1,13 @@
-<view>
-  New Page1
+<view class="page-container">
+  <!-- 上半部分背景色块 -->
+  <view class="background-block top-block"></view>
+
+  <!-- 下半部分背景色块 -->
+  <view class="background-block bottom-block"></view>
+
+  <!-- 横跨两个色块的组件 -->
+  <view class="cross-component">
+    <!-- 组件内容 -->
+    <text>我横跨两个色块</text>
+  </view>
 </view>
