@@ -35,8 +35,8 @@
       {
         "pagePath": "pages/forum/forum",
         "name": "文章",
-        "icon": "/images/角色管理.png",
-        "activeIcon": "/images/角色管理_1.png"
+        "icon": "/images/forum.png",
+        "activeIcon": "/images/forum1.png"
       },
       {
         "pagePath": "pages/forum_share/forum_share",
@@ -53,8 +53,8 @@
       {
         "pagePath": "pages/information/information",
         "name": "用户",
-        "icon": "/images/角色管理.png",
-        "activeIcon": "/images/角色管理_1.png"
+        "icon": "/images/information.png",
+        "activeIcon": "/images/information1.png"
       }
     ]
   }

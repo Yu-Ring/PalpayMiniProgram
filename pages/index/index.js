@@ -1,7 +1,12 @@
 Page({
   data: {
     //定义轮播图数据列表
-    swiperList: ["/images/琉璃龙.jpg","/images/铁道-列车.png","/images/Mimikyu.jpg","/images/Mimikyu2.jpg"], 
+    swiperList: [
+      "https://pic-bed-e5v.pages.dev/img/%E7%A5%9E%E5%B7%9E%E6%8A%98%E5%89%9107.JPG",
+      "https://pic-bed-e5v.pages.dev/img/%E7%A5%9E%E5%B7%9E%E6%8A%98%E5%89%9104.JPG",
+      "/images/Mimikyu.jpg",
+      "/images/Mimikyu2.jpg"
+    ], 
     //九宫格数据列表
     featureList: [
       // 功能栏数据

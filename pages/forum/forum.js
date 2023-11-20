@@ -6,7 +6,7 @@ Page({
         id: '1',
         title: '文章标题1',
         summary: '这里是文章摘要1...',
-        imageUrl: '/images/琉璃龙.jpg',
+        imageUrl: 'https://pic-bed-e5v.pages.dev/img/%E7%A5%9E%E5%B7%9E%E6%8A%98%E5%89%9104.JPG',
         author: '作者1',
         time: '2021-01-01'
       },
@@ -14,7 +14,7 @@ Page({
         id: '2',
         title: '文章标题2',
         summary: '这里是文章摘要2...',
-        imageUrl: '/images/铁道-列车.png',
+        imageUrl: 'https://pic-bed-e5v.pages.dev/img/%E7%A5%9E%E5%B7%9E%E6%8A%98%E5%89%9107.JPG',
         author: '作者2',
         time: '2021-02-01'
       },
