@@ -11,7 +11,8 @@
     "pages/forum_detail/forum_detail",
     "pages/message/message",
     "pages/messageList/messageList",
-    "pages/communication/communication"
+    "pages/communication/communication",
+    "pages/chart_detail/chart_detail"
   ],
   "window": {
     "defaultTitle": "AI 营养师",

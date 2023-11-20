@@ -7,8 +7,8 @@
 .background-block-top {
   position: absolute;
   width: 100%;
-  height: 25%; /* 分成两半 */
-  background-color: #abcdef;
+  height: 25vh; /* 分成两半 */
+  background-color: #efc9ab;
   top: 0;
 }
 
@@ -16,8 +16,12 @@
 .background-block-bottom {
   position: absolute;
   width: 100%;
-  height: 75%; /* 分成两半 */
-  background-color: rgb(250, 255, 250);
+  height: 75%;
+  background: linear-gradient(
+    to bottom, 
+    rgba(230, 240, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 100%);
+
   bottom: 0;
 }
 
@@ -35,21 +39,38 @@
   margin-top: 20rpx;
   margin-bottom: 20rpx;
 }
-
-
-
-.title {
-  font-weight: bold; 
-  font-size: 80rpx;
-  text-align: left;
-  color: hsl(24, 100%, 69%);
+/* 搜索框 */
+.search-bar {
+  display: flex;
+  width: 550rpx;
+  align-items: center;
+  background-color: rgb(245, 245, 245);
+  padding: 10rpx 5px 10rpx 5px;
+  border-radius: 30rpx;
+  margin: 10rpx 10rpx 0rpx 20rpx;
 }
 
+.search-icon {
+  width: 24px;
+  height: 24px;
+  margin: 0 10rpx;
+}
+
+.search-input {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  padding: 8px 0;
+  border-radius: 30rpx;
+}
+
+/* 头像 */
 .circle-avatar {
   width: 120rpx;
   height: 120rpx;
   border-radius: 50%;
   overflow: hidden;
+  margin: 10rpx;
 }
 
 /* 功能栏样式 */
@@ -63,7 +84,7 @@
   border-radius: 20rpx;
   margin-left: 10rpx;
   margin-right: 10rpx;
-  box-shadow: 1rpx 1rpx 20rpx #999999
+  box-shadow: 1rpx 1rpx 20rpx #ffc89c
 }
 
 .feature-item {
@@ -81,6 +102,45 @@
   margin-top: 5px;
   font-size: 14px;
   text-align: center;
+}
+
+/* 打卡模块 */
+.chart-container {
+  padding: 20rpx 30rpx 20rpx 30rpx ;
+  margin: 40rpx 10rpx 10rpx 10rpx;
+  background-color: #ffffff85;
+  border-radius: 20rpx;
+  box-shadow: 1rpx 1rpx 20rpx #aeff80
+}
+
+.my-chart {
+  width: 100%;
+  height: 200px; /* 可以根据需求调整 */
+}
+
+/*  */
+.article-container {
+  padding: 20rpx 30rpx 20rpx 30rpx ;
+  margin: 40rpx 10rpx 10rpx 10rpx;
+  background-color: #ffffff85;
+  border-radius: 20rpx;
+  box-shadow: 1rpx 1rpx 20rpx #80a2ff
+}
+
+
+
+.title-clock {
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: left;
+  color: hsl(0, 0%, 0%);
+}
+
+.title {
+  font-weight: bold; 
+  font-size: 80rpx;
+  text-align: left;
+  color: hsl(24, 100%, 69%);
 }
 
 

@@ -13,8 +13,8 @@ Page({
       { id: '1', icon: '/images/Mimikyu.jpg', text: 'AI咨询' },
       { id: '2', icon: '/images/Mimikyu.jpg', text: '营养师咨询' },
       { id: '3', icon: '/images/Mimikyu.jpg', text: '交流广场' },
-      { id: '4', icon: '/images/Mimikyu.jpg', text: '周期方案' },
-      { id: '5', icon: '/images/Mimikyu.jpg', text: '消息栏' },
+      { id: '4', icon: '/images/Mimikyu.jpg', text: '健康方案' },
+      { id: '5', icon: '/images/Mimikyu.jpg', text: '周期打卡' },
       // ...
     ]
   },

@@ -7,13 +7,20 @@
   <view class="page">
     <!-- 头部栏 -->
     <view class="flex-container">
-      <text class="title">Hello! </text>
+      <!-- 搜索框 -->
+      <view class="search-bar">
+        <image src="/images/search.png" class="search-icon" />
+        <input class="search-input" type="text" placeholder="搜索内容..." confirm-type="search" bindconfirm="onSearch" />
+      </view>
+      <!-- 头像 -->
       <image class="circle-avatar" mode="scaleToFill" src="/images/Mimikyu.jpg" onTap="navigateToMessageList" />
     </view>
   
+
     <!-- 轮播图 -->
     <my-swiper swiperList="{{swiperList}}"></my-swiper>
   
+
     <!-- 功能栏 -->
     <view class="feature-bar">
       <block a:for="{{featureList}}" a:key="index">
@@ -24,35 +31,41 @@
       </block>
     </view>
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-    <view class="flex-container" style="margin-top:80rpx;margin-bottom:60rpx">
+    <!-- 打卡图表 -->
+    <view class="chart-container">
+      <text class="title-clock">健康打卡 </text>
+      
+      <!-- 可删 --> <textarea placeholder="（这里显示部分可视化的数据，点开后进入详细数据页面 用Echart"></textarea>
+      
+      <canvas canvas-id="myChart" class="my-chart"></canvas>
+    </view>
+
+    <!-- 个性推荐 -->
+    <view class="article-container">
+      <text class="title-clock"> 个性推荐文章 </text>
+      <canvas canvas-id="myChart" class="my-chart"></canvas> <!-- 展位用的，不写图表 -->
+    </view>
+
+
+    <!-- 麻了，白写 -->
+    <!-- <view class="flex-container" style="margin-top:80rpx;margin-bottom:60rpx">
       <text class="title">Quick Start </text>
     </view>
     
-  
-      <view>
-        <my-button bgColor="#FFCAD4" text="症状调查"></my-button>
-      </view>
-      <view style="padding-left:240rpx">
-        <my-button-r bgColor="#F18671" text="营养记录"></my-button-r>
-      </view>
-      <view>
-        <my-button bgColor="#F1D268" text="定制计划"></my-button>
-      </view>
-      <view style="padding-left:240rpx">
-        <my-button-r bgColor="#999EE4" text="方案迭代"></my-button-r>
-      </view>
-  </view>
-  
+    <view>
+      <my-button bgColor="#FFCAD4" text="症状调查"></my-button>
+    </view>
+    <view style="padding-left:240rpx">
+      <my-button-r bgColor="#F18671" text="营养记录"></my-button-r>
+    </view>
+    <view>
+      <my-button bgColor="#F1D268" text="定制计划"></my-button>
+    </view>
+    <view style="padding-left:240rpx">
+      <my-button-r bgColor="#999EE4" text="方案迭代"></my-button-r>
+    </view> -->
 
+
+  </view>
 </view>
 
