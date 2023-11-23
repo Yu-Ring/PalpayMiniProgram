@@ -71,7 +71,7 @@
     },
     {
       "title": "communication",
-      "page": "pages/communicaton/communicaton",
+      "page": "pages/communication/communication",
       "launchMode": "common",
       "pageQuery": ""
     },

@@ -1,6 +1,6 @@
 <view class="page-background">
   <!-- <view class="background-block-top"></view> -->
-  <image mode="scaleToFill" class="background-block-top" src="/images/天后座ps2.png" />
+  <image mode="scaleToFill" class="background-block-top" src="/images/background.png" />
   <view class="background-block-bottom"></view>
 
 
@@ -13,7 +13,8 @@
         <input class="search-input" type="text" placeholder="搜索内容..." confirm-type="search" bindconfirm="onSearch" />
       </view>
       <!-- 头像 -->
-      <image class="circle-avatar" mode="scaleToFill" src="/images/Mimikyu.jpg" onTap="navigateToMessageList" />
+      <image class="circle-avatar" mode="scaleToFill" src="/images/Mimikyu.jpg" />
+      <image class="mail-style" mode="scaleToFill" src="/images/mail.png" onTap="navigateToMessageList" />
     </view>
   
 
@@ -31,20 +32,56 @@
       </block>
     </view>
   
-    <!-- 打卡图表 -->
+    <!-- 本周食谱 -->
+    <view class="recipe-container">
+      <text class="title-clock">本周食谱 </text>
+      <scroll-view scroll-x="true" class="recipe-scroll">
+        <block a:for="{{recipeList}}" a:key="index">
+          <view class="recipe-item" onTap="onRecipeTap" data-id="{{item.id}}">
+            <view class="flex-img-text">
+              <image class="recipe-image" src="{{item.imageUrl}}" />
+              <text class="recipe-text">{{item.name}}</text>
+            </view>
+            
+          </view>
+        </block>
+      </scroll-view>
+    </view>
+
+    <!-- 健康分析 -->
     <view class="chart-container">
-      <text class="title-clock">健康打卡 </text>
+      <text class="title-clock">健康分析 </text>
       
-      <!-- 可删 --> <textarea placeholder="（这里显示部分可视化的数据，点开后进入详细数据页面 用Echart"></textarea>
+      <!-- 可删 --> <textarea placeholder="（这里显示部分可视化的数据，点开后进入详细数据页面 用F2"></textarea>
       
       <canvas canvas-id="myChart" class="my-chart"></canvas>
     </view>
 
-    <!-- 个性推荐 -->
+    <!-- 个性文章推荐 -->
     <view class="article-container">
-      <text class="title-clock"> 个性推荐文章 </text>
-      <canvas canvas-id="myChart" class="my-chart"></canvas> <!-- 展位用的，不写图表 -->
+      <text class="title-clock">个性推荐文章</text>
+      <!-- 文章列表 -->
+      <block a:for="{{briefArticles}}" a:key="index">
+        <view class="brief-article-item" data-id="{{item.id}}">
+          <!-- 文章图片 -->
+          <image class="brief-article-image" mode="aspectFill" src={{item.imageUrl}} />
+          <!-- 文章信息 -->
+          <view class="brief-article-information-container" onTap="goToDetailPage">
+            <text class="brief-article-title">{{item.title}}</text>
+            <view class="brief-article-summary-container">
+              <text class="brief-article-summary">{{item.summary}}</text>
+            </view>
+            <view class="brief-article-meta">
+              <text class="brief-article-author">{{item.author}}</text>
+              <text class="brief-article-time">{{item.time}}</text>
+            </view>
+          </view>
+
+        </view>
+      </block>
+
     </view>
+    
 
 
     <!-- 麻了，白写 -->

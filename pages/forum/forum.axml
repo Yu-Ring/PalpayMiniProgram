@@ -1,14 +1,13 @@
 <view class="container">
-  <view class="header">
+  <!-- <view class="header">
     <navigation-button buttonText=" 首页 " navigateTo="/pages/message/message">健康</navigation-button>
     <navigation-button buttonText=" 饮食 " navigateTo="/pages/forum/forum">饮食</navigation-button>
     <navigation-button buttonText=" 运动 " navigateTo="" />
     <navigation-button buttonText="AI对话" navigateTo="" />
-  </view>
+  </view> -->
+
   <block a:for="{{articles}}" a:key="index">
-
     <view class="article-item" onTap="goToDetailPage" data-id="{{item.id}}">
-
       <image class="article-image" src="{{item.imageUrl}}" mode="aspectFill"></image>
       <view class="article-info">
         <text class="article-title">{{item.title}}</text>
@@ -18,8 +17,7 @@
           <text class="article-time">{{item.time}}</text>
         </view>
       </view>
-
     </view>
-
   </block>
+  
 </view>

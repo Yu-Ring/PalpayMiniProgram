@@ -12,7 +12,8 @@
     "pages/message/message",
     "pages/messageList/messageList",
     "pages/communication/communication",
-    "pages/chart_detail/chart_detail"
+    "pages/chart_detail/chart_detail",
+    "pages/recipe_detail/recipe_detail"
   ],
   "window": {
     "defaultTitle": "AI 营养师",
