@@ -80,6 +80,12 @@
       "page": "pages/page1/page1",
       "launchMode": "common",
       "pageQuery": ""
+    },
+    {
+      "title": "pages/index/index",
+      "page": "pages/chart_detail/chart_detail",
+      "launchMode": "common",
+      "pageQuery": ""
     }
   ]
 }

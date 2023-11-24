@@ -28,12 +28,27 @@
   margin-bottom: 10px;
 }
 
+.content-container {
+  background: linear-gradient(
+    to bottom, 
+    rgb(155, 195, 255) 0%, 
+    rgba(255, 255, 255, 0) 100% /* 蓝色渐变到透明 */
+  );
+  padding: 20rpx;
+  border-radius: 20rpx;
+  box-shadow: 1rpx 1rpx 20rpx #c9c9c9
+}
+
 .content {
   font-size: 18px;
   color: #666;
+  background-color: #ffffff82;
+  padding: 10rpx;
+  border-radius: 20rpx;
 }
 
 .comments-section {
+  padding: 20rpx 10rpx 10rpx 10rpx;
   margin-top: 20px;
 }
 
@@ -60,10 +75,20 @@
   margin-top: 10px;
 }
 
+.comment-item-container {
+  border-radius: 20rpx;
+  padding: 20rpx;
+  background: linear-gradient(
+    to bottom, 
+    rgb(255, 231, 198),
+    rgba(255, 255, 255, 0) 50%
+  );
+}
+
 .comment-item {
+  background-color: #ffffff82;
   margin-bottom: 10px;
   padding: 10px;
-  background-color: #f8f8f8;
   border-radius: 5px;
   display: flex;
   flex-direction: column;

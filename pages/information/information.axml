@@ -1,27 +1,38 @@
 <!-- 页面结构 WXML -->
 <view class="container">
-  <view class="user-info">
+
+  <!-- 头部 -->
+  <view class="user-avatar">
     <image src="/images/Mimikyu.jpg"></image>
     <text class="user-name">我的头像</text>
   </view>
 
-  <view class="info-item">
-    <text style="color:#8f8f8f; font-weight: bold;">个性签名</text>
-    <text style="margin-right:50rpx">rnm，退钱</text>
+  <!-- 个人信息 -->
+  <view class="info-container">
+
+    <view class="info-item">
+      <text class="info-text">个性签名</text>
+      <text class="info-text-content">rnm，退钱</text>
+    </view>
+  
+    <view class="info-item">
+      <text class="info-text">联系方式</text>
+      <text class="info-text-content">13345507124</text>
+    </view>
+  
+    <view class="info-item">
+      <text class="info-text">订阅信息</text>
+      <text class="info-text-content">内容订阅</text>
+    </view>
+  
+    <view class="info-item">
+      <text class="info-text">企业邮箱</text>
+      <text class="info-text-content">114514@usst.com</text>
+    </view>
+
   </view>
 
-  <view class="info-item">
-    <text style="color:#8f8f8f; font-weight: bold;">联系方式</text>
-    <text style="margin-right:50rpx">13345507124</text>
-  </view>
+  
 
-  <view class="info-item">
-    <text style="color:#8f8f8f; font-weight: bold;">订阅信息</text>
-    <text style="margin-right:50rpx">内容订阅</text>
-  </view>
 
-  <view class="info-item">
-    <text style="color:#8f8f8f; font-weight: bold;">企业邮箱</text>
-    <text style="margin-right:50rpx">114514@usst.com</text>
-  </view>
 </view>

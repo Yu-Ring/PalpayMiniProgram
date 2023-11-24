@@ -52,4 +52,9 @@ Page({
       url: `/pages/forum_detail/forum_detail?articleId=${articleId}`
     });
   },
+  navigateToMessageList: function(e){
+    my.navigateTo({ 
+      url: '/pages/messageList/messageList'
+    });
+  },
 });

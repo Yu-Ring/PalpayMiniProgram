@@ -4,7 +4,9 @@
     <text class="title">{{article.title}}</text>
     <text class="author-time">{{article.author}} - {{article.time}}</text>
     <image class="image" src="{{article.imageUrl}}" mode="aspectFill"></image>
-    <view class="content">{{article.content}}</view>
+    <view class="content-container">
+      <view class="content">{{article.content}}</view>
+    </view>
   </view>
 
   <!-- 评论区域 -->
@@ -19,23 +21,25 @@
     <!-- 评论展示部分 -->
     <view class="comment-list">
       <block a:for="{{comments}}" a:key="index">
-        <view class="comment-item">
-          <!-- 单个评论 -->
-          <text class="comment-user">{{item.user}}：</text>
-          <text class="comment-content">{{item.content}}</text>
-          <view class='reply-container'>
-            <button class="reply-button" plain="true" siez="mini" onTap="replyToComment" data-id="{{item.id}}">回复</button>
-          </view>
-        
-          <!-- 该评论下的回复列表 -->
-          <block a:for="{{item.replies}}" a:key="replyIndex">
-            <view class="reply-item">
-              <text class="reply-user">{{reply.user}}</text>
-              <text class="reply-content">{{reply.content}}</text>
+        <view class="comment-item-container">
+          <view class="comment-item">
+            <!-- 单个评论 -->
+            <text class="comment-user">{{item.user}}：</text>
+            <text class="comment-content">{{item.content}}</text>
+            <view class='reply-container'>
+              <button class="reply-button" plain="true" siez="mini" onTap="replyToComment" data-id="{{item.id}}">回复</button>
             </view>
-          </block>
-
+          
+            <!-- 该评论下的回复列表 -->
+            <block a:for="{{item.replies}}" a:key="replyIndex">
+              <view class="reply-item">
+                <text class="reply-user">{{reply.user}}</text>
+                <text class="reply-content">{{reply.content}}</text>
+              </view>
+            </block>
+          </view>
         </view>
+        
       </block>
     </view>
   </view>

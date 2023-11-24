@@ -6,7 +6,20 @@
     <navigation-button buttonText="AI对话" navigateTo="" />
   </view> -->
 
+  <!-- 头部栏 -->
+  <view class="flex-container">
+    <!-- 搜索框 -->
+    <view class="search-bar">
+      <image src="/images/search.png" class="search-icon" />
+      <input class="search-input" type="text" placeholder="搜索内容..." confirm-type="search" bindconfirm="onSearch" />
+    </view>
+    <!-- <image class="circle-avatar" mode="scaleToFill" src="/images/Mimikyu.jpg" /> -->
+    <image class="mail-style" mode="scaleToFill" src="/images/mail.png" onTap="navigateToMessageList" />
+  </view>
+
+  <!-- 文章列表 -->
   <block a:for="{{articles}}" a:key="index">
+
     <view class="article-item" onTap="goToDetailPage" data-id="{{item.id}}">
       <image class="article-image" src="{{item.imageUrl}}" mode="aspectFill"></image>
       <view class="article-info">
@@ -18,6 +31,7 @@
         </view>
       </view>
     </view>
+
   </block>
   
 </view>
