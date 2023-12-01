@@ -108,4 +108,36 @@ Page({
       url: `/pages/forum_detail/forum_detail?articleId=${articleId}`
     });
   },
+   onInitChart(F2, config) { 
+    const chart = new F2.Chart(config);
+    const data = [    
+      { value: 63.4, personality: '你的体重', date: '2023-12-01' },    
+      { value: 62.7, personality: '期望体重', date: '2023-12-01' },
+      { value: 72.2, personality: '正常体重', date: '2023-12-01' },   
+      { value: 58, personality: '你的体重', date: '2023-12-02' },     
+      { value: 59.9, personality: '期望体重', date: '2023-12-02' },     
+      { value: 67.7, personality: '正常体重', date: '2023-12-02' },    
+      { value: 53.3, personality: '你的体重', date: '2023-12-03' },  
+      { value: 59.1, personality: '期望体重', date: '2023-12-03' },  
+      { value: 69.4, personality: '正常体重', date: '2023-12-03' },   
+    ]; 
+    chart.source(data, {   
+      date: {     
+        range: [0, 1],   
+        type: 'timeCat',      
+        mask: 'MM-DD'   
+      },    
+      value: {  
+        max: 300,    
+        tickCount: 4   
+      } 
+    });    
+    chart.area().position('date*value').color('personality').adjust('stack');  
+    chart.line().position('date*value').color('personality').adjust('stack');  
+    chart.render();   // 注意：需要把chart return 出来   
+    return chart; 
+  },
+  goToDetailPage(){
+    my.navigateTo({url:'/pages/chart_detail/chart_detail'});
+  }
 });

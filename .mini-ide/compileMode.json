@@ -86,6 +86,12 @@
       "page": "pages/chart_detail/chart_detail",
       "launchMode": "common",
       "pageQuery": ""
+    },
+    {
+      "title": "pages/chart_detail/chart_detail",
+      "page": "pages/chart_detail/chart_detail",
+      "launchMode": "common",
+      "pageQuery": ""
     }
   ]
 }
