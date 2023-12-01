@@ -13,7 +13,8 @@
     "pages/messageList/messageList",
     "pages/communication/communication",
     "pages/chart_detail/chart_detail",
-    "pages/recipe_detail/recipe_detail"
+    "pages/recipe_detail/recipe_detail",
+    "pages/chat_with_ai/chat_with_ai"
   ],
   "window": {
     "defaultTitle": "AI 营养师",
@@ -47,8 +48,8 @@
         "activeIcon": "/images/article_add.png"
       },
       {
-        "pagePath": "pages/message/message",
-        "name": "消息",
+        "pagePath": "pages/chat_with_ai/chat_with_ai",
+        "name": "AI",
         "icon": "/images/message.png",
         "activeIcon": "/images/message_1.png"
       },

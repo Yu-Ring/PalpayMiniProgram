@@ -86,6 +86,12 @@
       "page": "pages/chart_detail/chart_detail",
       "launchMode": "common",
       "pageQuery": ""
+    },
+    {
+      "title": "chat_with_ai",
+      "page": "pages/chat_with_ai/chat_with_ai",
+      "launchMode": "common",
+      "pageQuery": ""
     }
   ]
 }

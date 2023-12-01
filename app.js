@@ -1,4 +1,8 @@
 App({
+  globalData: {
+    userId: null, // 初始时用户ID为空
+    token: null, // 存放访问文心一言接口api的
+  },
   todos: [
     { text: '失眠', completed: true },
     { text: '不快乐', completed: true },

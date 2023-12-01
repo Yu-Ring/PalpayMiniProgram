@@ -1,0 +1,23 @@
+<view class="chat-container">
+  <scroll-view class="message-list" scroll-y="true">
+
+    <block a:for="{{messages}}" a:key="index">
+      <!-- 如果是自己 -->
+      <view class="message-item message-item-other" a:if="{{item.role === 'user'}}">
+        <image class="avatar" src="{{yourAvatar}}" />
+        <text class="message">{{item.content}}</text>
+      </view>
+      <!-- 如果是别人 -->
+      <view class="message-item" a:if="{{item.role !== 'user'}}">
+        <image class="avatar" src='/images/Mimikyu2.jpg'  />
+        <text class="message">{{item.content}}</text>
+      </view>
+    </block>
+
+  </scroll-view>
+
+  <view class="input-area">
+    <input type="text" placeholder="输入消息" onInput="onInput" value="{{inputValue}}" />
+    <button onTap="sendMessage">发送</button>
+  </view>
+</view>
