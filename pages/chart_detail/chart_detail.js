@@ -136,7 +136,7 @@ Page({
   // 雷达图
   onInitChart4(F2, config) {
     config.width = 300;  // 调整为所需宽度
-    config.height = 180; // 调整为所需高度
+    config.height = 300; // 调整为所需高度
     const chart = new F2.Chart(config);
     const data = [
       { item: '脂肪', score:50, group: 'A组' },

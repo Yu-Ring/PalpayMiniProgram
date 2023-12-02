@@ -17,7 +17,7 @@
       <image class="mail-style" mode="scaleToFill" src="/images/mail.png" onTap="navigateToMessageList" />
     </view>
     <!-- 本周营养摄入 -->
-    <view class="recipe-container">
+    <view class="nutrition-container">
       <text class="title-clock">本周营养摄入</text>
       <view class="container"> 
         <f2  onInit="onInitChart2"></f2>
@@ -25,12 +25,12 @@
     </view>
 
     <!-- 健康分析 -->
-    <view class="chart-container">
+    <view class="analysis-container">
       <text class="title-clock">健康分析 </text>
       <view class="container"> 
         <f2 class="f2-chart" onInit="onInitChart"></f2>
       </view>
-      <view class="container"> 
+      <view class="f2-container"> 
         <f2 class="f2-chart" onInit="onInitChart4"></f2>
       </view>
     </view>
