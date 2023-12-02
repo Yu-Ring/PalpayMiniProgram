@@ -2,6 +2,7 @@
   "usingComponents": {
     "my-swiper": "/components/my-swiper/my-swiper",
     "my-button": "/components//my-button/my-button",
-    "my-button-r": "/components/my-button-r/my-button-r"
+    "my-button-r": "/components/my-button-r/my-button-r",
+    "f2": "@antv/my-f2"
   }
 }

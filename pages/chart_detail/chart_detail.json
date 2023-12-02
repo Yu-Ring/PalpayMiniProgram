@@ -1,4 +1,6 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "f2": "@antv/my-f2"
+  },
   "styleIsolation": "apply-shared"
 }

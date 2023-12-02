@@ -1,0 +1,132 @@
+.page-background {
+  position: relative; /* 确保子元素可以相对于此定位 */
+  height: 100vh; /* 根据需要调整页面高度 */
+}
+
+/* 上部背景色图 */
+.background-block-top {
+  position: absolute;
+  width: 100%;
+  height: 25vh; /* 分成两半 */
+  background-color: #efc9ab;
+  top: 0;
+}
+
+/* 下部背景色图 */
+.background-block-bottom {
+  position: absolute;
+  width: 100%;
+  height: 75%;
+  background: linear-gradient(
+    to bottom, 
+    rgba(230, 240, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+
+  bottom: 0;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+
+/* 头部栏 */
+.flex-container {
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}
+/* 搜索框 */
+.search-bar {
+  display: flex;
+  width: 500rpx;
+  align-items: center;
+  background-color: rgb(245, 245, 245);
+  padding: 10rpx 5px 10rpx 5px;
+  border-radius: 30rpx;
+  margin: 10rpx 10rpx 0rpx 20rpx;
+}
+
+.search-icon {
+  width: 24px;
+  height: 24px;
+  margin: 0 10rpx;
+}
+
+.search-input {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  padding: 8px 0;
+  border-radius: 30rpx;
+}
+
+/* 头像 */
+.circle-avatar {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 10rpx;
+  border: 6rpx #ffc89c;
+}
+
+/* 消息框 */
+.mail-style{
+  width: 80rpx;
+  height: 80rpx;
+  margin-right: 20rpx;
+}
+
+
+/* 本周营养摄入模块 */
+.nutrition-container {
+  width:670rpx;
+  padding: 20rpx 30rpx 20rpx 30rpx ;
+  margin: 40rpx 10rpx 10rpx 10rpx;
+  background-color: #ffffff85;
+  border-radius: 20rpx;
+  box-shadow: 1rpx 1rpx 20rpx #aeff80
+}
+
+
+/* 健康分析模块 */
+.analysis-container {
+  padding: 20rpx 30rpx 20rpx 30rpx ;
+  margin: 40rpx 10rpx 10rpx 10rpx;
+  background-color: #ffffff85;
+  border-radius: 20rpx;
+  box-shadow: 1rpx 1rpx 20rpx #61a8ff
+}
+
+.my-chart {
+  width: 100%;
+  height: 200px; /* 可以根据需求调整 */
+}
+
+
+/* 标题 */
+.title-clock {
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: left;
+  color: hsl(0, 0%, 0%);
+}
+
+
+
+/* 图表样式 */
+.f2-container {
+  height: 500rpx; /* 调整为所需高度 */
+}
+
+.f2-chart {
+  width: 200rpx;
+  height: 500rpx;
+}
+

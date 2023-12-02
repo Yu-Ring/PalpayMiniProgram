@@ -52,9 +52,10 @@
     <view class="chart-container">
       <text class="title-clock">健康分析 </text>
       
-      <!-- 可删 --> <textarea placeholder="（这里显示部分可视化的数据，点开后进入详细数据页面 用F2"></textarea>
-      
-      <canvas canvas-id="myChart" class="my-chart"></canvas>
+      <!-- 可删 <textarea placeholder="（这里显示部分可视化的数据，点开后进入详细数据页面 用F2"></textarea> -->
+      <view class="container"onTap="goToDetailPage"> 
+        <f2 class="f2-chart" onInit="onInitChart"></f2>
+      </view>
     </view>
 
     <!-- 个性文章推荐 -->

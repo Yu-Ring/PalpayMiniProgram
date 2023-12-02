@@ -1,3 +1,40 @@
-<view>
-  New Page
+<view class="page-background">
+  <!-- <view class="background-block-top"></view> -->
+  <image mode="scaleToFill" class="background-block-top" src="/images/background.png" />
+  <view class="background-block-bottom"></view>
+
+
+  <view class="page">
+    <!-- 头部栏 -->
+    <view class="flex-container">
+      <!-- 搜索框 -->
+      <view class="search-bar">
+        <image src="/images/search.png" class="search-icon" />
+        <input class="search-input" type="text" placeholder="搜索内容..." confirm-type="search" bindconfirm="onSearch" />
+      </view>
+      <!-- 头像 -->
+      <image class="circle-avatar" mode="scaleToFill" src="/images/Mimikyu.jpg" />
+      <image class="mail-style" mode="scaleToFill" src="/images/mail.png" onTap="navigateToMessageList" />
+    </view>
+    <!-- 本周营养摄入 -->
+    <view class="nutrition-container">
+      <text class="title-clock">本周营养摄入</text>
+      <view class="container"> 
+        <f2  onInit="onInitChart2"></f2>
+      </view>
+    </view>
+
+    <!-- 健康分析 -->
+    <view class="analysis-container">
+      <text class="title-clock">健康分析 </text>
+      <view class="container"> 
+        <f2 class="f2-chart" onInit="onInitChart"></f2>
+      </view>
+      <view class="f2-container"> 
+        <f2 class="f2-chart" onInit="onInitChart4"></f2>
+      </view>
+    </view>
+    
+   
+  </view>
 </view>
