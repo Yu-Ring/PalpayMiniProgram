@@ -108,6 +108,9 @@ Page({
       url: `/pages/forum_detail/forum_detail?articleId=${articleId}`
     });
   },
+
+
+  // 可视化
    onInitChart(F2, config) { 
     const chart = new F2.Chart(config);
     const data = [    
@@ -137,6 +140,9 @@ Page({
     chart.render();   // 注意：需要把chart return 出来   
     return chart; 
   },
+
+
+
   goToDetailPage(){
     my.navigateTo({url:'/pages/chart_detail/chart_detail'});
   }

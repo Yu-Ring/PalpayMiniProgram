@@ -1,6 +1,8 @@
 Page({
   data: {},
   onLoad() {},
+
+  // 折线图
   onInitChart(F2, config) { 
     const chart = new F2.Chart(config);
     const data = [    
@@ -30,6 +32,8 @@ Page({
     chart.render();   // 注意：需要把chart return 出来   
     return chart; 
   },
+
+  // 条形图
   onInitChart2(F2, config) {
     const chart2 = new F2.Chart(config);
     const data = [
@@ -74,7 +78,9 @@ Page({
     return chart2;
   },
   //绘制饼状图 画不出来 没有报错 明天试试
-  /*onInitChart3(F2, config) {
+  /* 
+  // 扇形图
+  onInitChart3(F2, config) {
     const chart2 = new F2.Chart(config);
     const data = [
       { value: 63.4, nutrition: '脂肪' },
@@ -126,6 +132,8 @@ Page({
     chart2.render();
     return chart2;
   }*/
+
+  // 雷达图
   onInitChart4(F2, config) {
     config.width = 300;  // 调整为所需宽度
     config.height = 180; // 调整为所需高度
