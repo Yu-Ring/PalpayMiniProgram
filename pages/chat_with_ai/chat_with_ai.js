@@ -42,8 +42,8 @@ Page({
     });
 
     my.request({
-      // url: 'http://localhost:8081/api/aiChat', // 本地用
-      url: 'http://124.221.161.48:8081/api/aiChat', // 部署用
+      url: 'http://localhost:8081/api/aiChat', // 本地用
+      // url: 'http://124.221.161.48:8081/api/aiChat', // 部署用
       method: 'POST',
       data: this.data.messages,
       success: (res) => {
